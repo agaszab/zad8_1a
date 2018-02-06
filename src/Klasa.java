@@ -32,9 +32,13 @@ public class Klasa {
 
     void add (String nazwa, int ilosc){
 
-            setNazwa(nazwa);
-            setIloscUczniow(ilosc);
-            index += index;
+
+
+
+
+        this.setNazwa(nazwa);
+            this.setIloscUczniow(ilosc);
+            index ++;
 
     }
 
@@ -43,10 +47,10 @@ public class Klasa {
 
     boolean zawiera=false;
 
-        if ((nazwa != null) && (ile != 0)) {
+        if (nazwa != null) {
             for (int i = 0; i < index; i++) {
                 if (nazwa.equals(getNazwa()) && (ile == getIloscUczniow()))
-                    zawiera=true;
+                    return true;
             }
             zawiera=false;
         }
