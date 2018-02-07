@@ -21,8 +21,9 @@ public class Program {
             klasa[i] = new Klasa();
 
             if (i == 0) {
-                klasa[i].add(nazwa, ilosc);
-            } else if (klasa[i].zawiera(nazwa, ilosc)) {
+              klasa[i].add(nazwa, ilosc);
+
+            } else if (klasa[i].zawiera(klasa)) {
                 System.out.println("Taka klasa już istnieje ");
                 i--;
 

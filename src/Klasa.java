@@ -46,10 +46,11 @@ public class Klasa {
             if (klasa.equals(klasa[j])) {
                 zawiera = true;
             }
-            return zawiera;
+
 
         }
-
+        return zawiera;
+    }
 
         @Override
         public boolean equals (Object obj){
@@ -71,7 +72,7 @@ public class Klasa {
 
             return true;
 
-        }
+
 
 
     }
