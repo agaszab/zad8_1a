@@ -8,7 +8,6 @@ public class KlasaTest {
 
         String nazwa;
         int ilosc;
-        int licznik = 0;
 
 
         for (int i = 0; i < klasa.length; i++) {
@@ -21,7 +20,6 @@ public class KlasaTest {
             Klasa temp = new Klasa(nazwa, ilosc);
             if (i == 0) {
                 klasa[i] = temp;
-                licznik++;
             } else {
                 boolean zawiera = false;
 
